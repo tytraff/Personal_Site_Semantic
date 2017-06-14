@@ -1,0 +1,18 @@
+﻿#Content{
+	background-color:white;
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	padding-left:5px;
+}
+
+h2{
+	color:gray;
+	font-family:'Yellowtail', cursive;
+	font-size: 45px;
+	
+	}
+	
+#Content img{
+	margin-right:225px;
+	border-radius: 80px;
+	width: 50%;
+}

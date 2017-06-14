@@ -1,0 +1,29 @@
+//var fnameInput = document.getElementById('fnameInput');
+
+function validateFName() {
+   var fnameInput = document.getElementById("fnameInput");
+   //var errorDiv = document.getElementById("fNameError");
+	window.alert("test");	
+}
+
+function createEventListeners() {
+   	 var fnameInput = document.getElementById("fnameInput");
+     if (fnameInput.addEventListener) {
+      fnameInput.addEventListener("change", validateFName, false); 
+       } else if (fnameInput.attachEvent) {
+      fnameInput.attachEvent("onchange", validateFName);
+       } 
+
+   var button = document.getElementById("applyBtn");
+   if (button.addEventListener) {
+      button.addEventListener("click", convertToString, false);
+   } else if (button.attachEvent) {
+      button.attachEvent("onclick", convertToString);
+   } 
+}
+
+if (window.addEventListener) {
+   window.addEventListener("load", createEventListeners, false);
+} else if (window.attachEvent) {
+   window.attachEvent("onload", createEventListeners);
+}

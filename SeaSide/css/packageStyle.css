@@ -1,0 +1,49 @@
+
+nav {
+    padding: 25px;
+
+}
+
+.navbar-default {
+    background-color:aquamarine;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+#Brand{
+    margin-top: -30%;
+    margin-left: -20%;
+}
+#image{
+    padding-top: 0;
+}
+
+h1{
+    margin-top: 2%;
+    color:darkblue;
+    background-color: #9acfea;
+    font-size: 420%;
+}
+
+h3{
+    color: darkblue;
+}
+
+.Slides1, .Slides2, .Slides3, .Slides4 {
+    height: 300px;
+    width: 500px;
+}
+
+#info1, #info2, #info3, #info4 {
+    color:blue;
+}
+
+#cardName{
+    width: 50em;
+}

@@ -1,0 +1,57 @@
+﻿/*
+essential styles:
+these make the slideshow work
+*/
+/*#slideshow{*/
+	/*position: relative;*/
+	/**/
+/*}*/
+#slides {
+    position: absolute;
+    top: -100px;
+    left: 350px;
+    width: 400px;
+    list-style-type: none;
+}
+
+
+.slide {
+    position: absolute;
+    left: 100px;
+    top: 250px;
+
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+.slide img {
+	height:280px;
+	width:350px;
+}
+#footer{
+    position: absolute;
+    top: 900px;
+    left: 500px;
+}
+#description {
+	position: absolute;
+	top: 450px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#price {
+	color:teal;
+	font-size:40px;
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}

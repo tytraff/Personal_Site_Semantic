@@ -1,0 +1,120 @@
+﻿
+/******************* HEADER ****************/
+header{
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	overflow:auto;
+}
+
+h1 {
+	color:green;
+	text-align:center;
+	}
+
+h2{
+	color:green;
+	text-align:center;
+}
+
+h3 {
+	color:green;
+	text-align:center;
+}
+header img{
+	width:940px;
+}
+
+/***************** BODY ********************/
+body {
+	background-image:url('../centennialBuilding.jpeg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+#container {
+	background-color:white;
+	width: 940px;
+	margin-right:auto;
+	margin-left:auto;
+	padding: 0 5;
+	overflow:auto;
+
+}
+
+
+
+section {
+	width: 940px;
+	margin-right:auto;
+	margin-left:auto;
+	padding: 0 5;
+	background-color:white;
+}
+
+form {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.left {
+	width: 465px;
+	float:left;
+	margin-left:5px;
+	padding-left:5px;
+}
+
+.right {
+	width: 465px;
+	float: right;
+	
+	}
+
+.star {
+	color:red;
+}
+
+input{
+	margin-top:0px;
+	}
+
+.label {
+	margin-bottom:0px;
+}
+
+select {
+	width: 350px;
+}
+
+p.errorMsg {
+   display: none;
+   color: red;
+   text-align: lwft;
+   margin-bottom:0px;
+   padding-bottom:0px;
+   }
+
+
+/************ FOOTER **********/
+
+footer {
+	width:930px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:: 0 5;
+	text-align:center;
+}
+
+
+/*************************** SUBMIT PAGE **********************/
+
+#message {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	color:green;
+	background-color:white;
+	overflow:auto;
+}

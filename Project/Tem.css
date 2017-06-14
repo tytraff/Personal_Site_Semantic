@@ -1,0 +1,95 @@
+﻿#contactBanner{
+	text-align: right;
+	font-size: small;
+	
+}
+
+#NavBanner{
+	text-align: right;
+	font-size:large;
+	margin-bottom:0px;
+}
+
+
+.contactInfo{
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:10px;
+}
+
+body{
+	background-image:url('background3.jpg');
+	font-family: 'Ravi Prakash', cursive;
+	}
+	
+#content{
+	
+	margin-top:0px;
+}
+
+h4{
+	
+	font-style:italic
+}
+
+#Nav{
+	
+	background-color:white;
+}
+
+.footNav{
+	text-align:right;
+}
+
+
+.copyright{
+	
+}
+
+.container{
+	width: 900px;
+	margin: 0px auto 0px auto;
+}
+
+
+.nav li a {
+	background-image:url('images/simple-gradient.png');
+	display:block;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:18px; 
+	line-height:18px; 
+	color:#666666; 
+	font-weight:normal;
+	text-shadow: 2px 2px 2px rgba(1, 1, 1, 0.4);
+	text-decoration:none;
+	padding:23px 5px 23px 5px; 
+	text-align:center;
+	font-style:normal;
+	text-transform:uppercase;
+	width:150px;
+	background-color:#D7D7D7;
+	margin:1px 2px 1px -30px;
+	border:5px #EAEAEA solid;
+	}
+	
+.nav li a:hover {
+	display:block;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:18px; 
+	line-height:18px; 
+	color:#FFFFFF; 
+	font-weight:normal;
+	text-shadow: 2px 2px 2px black;
+	text-decoration:none;
+	padding:23px 5px 23px 5px; 
+	text-align:center;
+	font-style:normal;
+	text-transform:uppercase;
+	width:150px;
+	background-color:#BEBEBE;
+	border:5px #CCCCCC solid;
+	}
+	
+	*/

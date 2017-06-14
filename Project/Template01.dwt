@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!-- #BeginEditable "doctitle" -->
+<title>Real Estate</title>
+<!-- #EndEditable -->
+<link href="Tem.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">
+<style type="text/css">
+.auto-style1 {
+	margin-top: 0px;
+}
+</style>
+<script type="text/javascript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button8A.jpg',/*url*/'button8B.jpg',/*url*/'button8D.jpg',/*url*/'button8E.jpg',/*url*/'button90.jpg',/*url*/'button91.jpg',/*url*/'button93.jpg',/*url*/'button94.jpg',/*url*/'buttonB18.jpg',/*url*/'buttonB19.jpg',/*url*/'buttonB20.jpg',/*url*/'buttonB21.jpg',/*url*/'buttonB22.jpg',/*url*/'buttonBA2.jpg',/*url*/'buttonBC2.jpg',/*url*/'buttonBD2.jpg')">
+
+<div class="container">
+
+<div id="Banner" style="position: absolute; left: 15px; top: 7px; width: 881px; height: 100px; z-index: 1">
+	<div id="Title" style="position:absolute; left: 20px; top: 10px; width: 400px; height: 80px; z-index: 5">
+	<h2>Bruce Banner Real Estate</h2>
+	<h4>Making your move easier</h4>
+	</div>
+
+	<img alt="banner" height="140" src="banner.jpg" width="881">
+	<div id="contactBanner" style="position: absolute; left: 630px; width:251px; height: 100px; z-index: 5; top: 0px;">
+	<img src="portrait.jpg" alt="portrait" height="96" style="float: left" width="85" class="auto-style1">&nbsp;
+<div class="contactInfo">
+<a href="mailto://johndoe@gmail.com">Email: johndoe@gmail.com&nbsp;</a>
+</div>
+<div class="contactInfo">
+<p>Mobile: 905-723-2555</p>
+</div>
+</div>
+</div>
+<div id="NavBanner" style="position: absolute; left: 16px; top: 109px; width: 876px; height: 43px; z-index: 5">
+
+
+	<a href="HomePage.html">
+	<img id="img1" alt="Home" fp-style="fp-btn: Soft Tab 6" fp-title="Home" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button8B.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button89.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button8A.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button8A.jpg')" src="button89.jpg" style="border: 0" width="92"></a><a href="Listing.html"><img id="img2" alt="Listings" fp-style="fp-btn: Soft Tab 6" fp-title="Listings" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button8E.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button8C.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button8D.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button8D.jpg')" src="button8C.jpg" style="border: 0" width="90"></a><a href="Contact.html"><img id="img3" alt="Contact" fp-style="fp-btn: Soft Tab 6" fp-title="Contact" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button91.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button8F.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button90.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button90.jpg')" src="button8F.jpg" style="border: 0" width="90"></a><a href="SiteMap.html"><img id="img4" alt="Site Map" fp-style="fp-btn: Soft Tab 6" fp-title="Site Map" height="30" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button94.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button92.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button93.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button93.jpg')" src="button92.jpg" style="border: 0" width="90"></a></div>
+
+<div id="Nav" style="position: absolute; left: 15px; top: 151px; width: 111px; height: 510px; z-index: 2">
+	<a href="HomePage.html">
+	<img id="img5" alt="Home" fp-style="fp-btn: Soft Capsule 1" fp-title="Home" height="22" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonB19.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonB23.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'buttonB18.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'buttonB18.jpg')" src="buttonB23.jpg" style="border: 0" width="110"></a><br>
+	<a href="Listings.html">
+	<img id="img6" alt="Listings" fp-style="fp-btn: Soft Capsule 1" fp-title="Listings" height="22" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'buttonB21.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'buttonB24.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'buttonB20.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'buttonB20.jpg')" src="buttonB24.jpg" style="border: 0" width="110"></a><br>
+	<a href="Contact.html">
+	<img id="img7" alt="Contact" fp-style="fp-btn: Soft Capsule 1" fp-title="Contact" height="22" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'buttonBA2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'buttonB25.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'buttonB22.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'buttonB22.jpg')" src="buttonB25.jpg" style="border: 0" width="110"></a><br>
+	<a href="SiteMap.html">
+	<img id="img8" alt="Site Map" fp-style="fp-btn: Soft Capsule 1" fp-title="Site Map" height="22" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'buttonBD2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'buttonBB2.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'buttonBC2.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'buttonBC2.jpg')" src="buttonBB2.jpg" style="border: 0" width="110"></a><br>
+	<br><br>
+	<a href="HouseListings.html"><img alt="house" height="101" src="house.jpg" width="108"></a>
+	<br><br>
+	<a href="CondoListings.html"><img alt="condo" height="139" src="metropolitan-condo.gif" width="108"></a>	
+	</div>
+	
+	
+<div id="Footer" style="position: absolute; left: 15px; top: 665px; width: 881px; height: 60px; z-index: 3">
+<div class="copyright">
+<h5>Copyright &reg; David Trafford -- Centennial College</h5>
+</div>
+<div class="footNav">
+<a href="HomePage.html">Home</a>&nbsp;
+<a href="Listings.html">Listings</a>&nbsp;
+<a href="Contact.html">Contact</a>&nbsp;
+<a href="SiteMap.html">Site Map</a>
+</div>
+
+</div>
+<!-- #BeginEditable "body" -->
+<div id="Content" style="position: absolute; left: 127px; top: 150px; width: 755px; height: 510px; z-index: 4">
+<p>&nbsp;</p>
+</div>
+<!-- #EndEditable -->
+
+
+
+</div>
+
+
+</body>
+
+</html>

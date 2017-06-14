@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SeaSide Vacations</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../css/packageStyle.css" rel="stylesheet">
+    <link rel="icon" href="../img/palmfavicon.png">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">
+            <img id="Brand" alt="Brand" src="../img/rsz_seaside-vacations-outer-banks-rentals-logo.png">
+        </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="../index.html"><h3>Home</h3></a></li>
+            <li><a href="../packages/packages.html"><h3>Packages</h3></a></li>
+            <li><a href="../contact/contact.html"><h3>Contact</h3></a></li>
+        </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+</nav>
+<br>
+
+<div class="container">
+    <hr class="featurette-divider">
+    <div id="project" class="row featurette container-fluid">
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><b>Grand Baha Pricipe</b></h2>
+            <p class="lead">Welcome to our heaven </p>
+            <p id="info1"></p>
+            <form action="../payment/payment.html">
+                <input type="submit" value="Purchase Now!" onclick="setCookie('value',1499)">
+            </form>
+            <h2>$1499</h2>
+            <h2>All Inclusive</h2>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block Slides1"
+                 src="../img/package1/grand-mirarmar-all-inclusive-resorts-vacation-packages.jpg"
+                 alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block Slides1" src="../img/6995642-seaside-hut.jpg"/>
+            <img class="featurette-image img-responsive center-block Slides1" src="../img/snorkel-key-west-6-1300x731.jpg"/>
+            <img class="featurette-image img-responsive center-block Slides1" src="../img/resort1_wedding.jpg"/>
+            <button class="w3-button w3-black w3-display-left" onclick="slide1Divs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="slide1Divs(1)">&#10095;</button>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    <hr class="featurette-divider">
+    <div class="row featurette container-fluid">
+        <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading"><b>Puerto Vallarta, Cuba</b></h2>
+            <p class="lead">You only live once, try something new</p>
+            <p id="info2"></p>
+            <form action="../payment/payment.html">
+                <input type="submit" value="Purchase Now!" onclick="setCookie('value',2499)">
+            </form>
+            <h2>$2499</h2>
+            <h2>All Inclusive</h2>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block Slides2"
+                 src="../img/5-Best-AllInclusive-Resorts-for-Families-in-the-Caribbean-0e1f3d3af4914a20a614d2b4458a5d66.jpg"
+                 alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block Slides2"
+                 src="../img/puerto-vallarta-all-inclusive-vacations.jpg"/>
+            <img class="featurette-image img-responsive center-block Slides2" src="../img/package2_horse.jpg"/>
+            <img class="featurette-image img-responsive center-block Slides2" src="../img/package2_waterfall.jpg"/>
+            <button class="w3-button w3-black w3-display-left" onclick="slide2Divs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="slide2Divs(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <hr class="featurette-divider">
+    <div class="row featurette container-fluid">
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><b>Boscobel, Jamaica</b></h2>
+            <p class="lead">Life is to enjoy!</p>
+            <p id="info3"></p>
+            <form action="../payment/payment.html">
+                <input type="submit" value="Purchase Now!" onclick="setCookie('value',1399)">
+            </form>
+            <h2>$1399</h2>
+            <h2>All Inclusive</h2>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block Slides3" src="../img/package1/hotel_212.jpg"
+                 alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block Slides3"
+                 src="../img/Jamaica-all-inclusive-resorts-for-vacations1.jpg"/>
+            <img class="featurette-image img-responsive center-block Slides3" src="../img/package3_3.jpg"/>
+            <img class="featurette-image img-responsive center-block Slides3" src="../img/package3_4.jpg"/>
+            <button class="w3-button w3-black w3-display-left" onclick="slide3Divs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="slide3Divs(1)">&#10095;</button>
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    <hr id="package" class="featurette-divider">
+    <div class="row featurette container-fluid">
+        <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading"><b>Barcelo, Aruba</b></h2>
+            <p class="lead">Time to be with family</p>
+            <p id="info4"></p>
+            <form action="../payment/payment.html">
+                <input type="submit" value="Purchase Now!" onclick="setCookie('value',2299)">
+            </form>
+            <h2>$2299</h2>
+            <h2>All Inclusive</h2>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block Slides4" src="../img/package1/download.jpg"
+                 alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block Slides4" src="../img/kidsplace.jpg"/>
+            <img class="featurette-image img-responsive center-block Slides4" src="../img/kidsFamily.jpg">
+            <img class="featurette-image img-responsive center-block Slides4" src="../img/kidsBabysitting.jpg">
+            <button class="w3-button w3-black w3-display-left" onclick="slide4Divs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="slide4Divs(1)">&#10095;</button>
+        </div>
+    </div>
+</div>
+<br>
+<hr class="featurette-divider">
+<hr class="featurette-divider">
+<footer class="text-center">
+    <a href="https://twitter.com/tytraff"><img src="../img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+    <a href="https://www.facebook.com/tyler.trafford.1"><img src="../img/facebook-wrap.png" alt="Facebook Logo"
+                                                             class="social-icon"></a>
+    <br><br>
+    <p>&copy; 2017 David Trafford | Bao Son Pham</p>
+</footer>
+
+<!-- jQuery (necessary for Boots
+rap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+<script src="../scripts/packages1_script.js" type="text/javascript"></script>
+<script src="../js/packages.js"></script>
+</body>
+</html>

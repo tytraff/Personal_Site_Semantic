@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial=1.0" />
+    <title>Seaseide Vacations</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/palmfavicon.png">
+<style>
+
+</style>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo">
+            <img class="logopic" src="img/rsz_seaside-vacations-outer-banks-rentals-logo.png" alt="Logo">
+            <h1>Seaside Vacations</h1>           
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="contact.html" class="selected">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <section>
+            <h3>General Information</h3>
+            <p>For all inquires please feel free to contact us below!  Our team is always ready to help!</p>
+            <p>We look forward to hearing from you soon!</p>
+        </section>
+        <section>
+        <table>
+            <tr>
+                <td>
+                    <p>Please enter your request at the form below</p>
+                    <form onsubmit="Validation()">
+                        <label for="name" class="control-label">Name</label>
+                        <input type="text" id="name" class="control-label" required/><br>
+                        <label for="email" class="control-label">Email&nbsp;</label>
+                        <input type="text" id="email" required/><br>
+                        <label for="message" class="control-label">Message</label><br>
+                        <textarea id="message" rows="6" style="width: 310px" required></textarea><br>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                </td>
+                <td>
+                    <div id="googleMap" style="width:500px;height:250px;"></div>
+                </td>
+        </table>
+        </section>
+        <section>
+            <h3>Contact Details</h3>
+            <ul class="contact-info">
+                <li class="phone"><a href="tel:555-555-6425">555-555-6425</a></li>
+                <li class="mail"><a href="mailto:seaside@example.com">seaside@example.com</a></li>
+                <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=nickrp">@seaside</a></li>
+            </ul>
+        </section>
+        <footer>
+            <a href="https://twitter.com/tytraff"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+            <a href="https://www.facebook.com/tyler.trafford.1"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+            <p>&copy; 2017 David Traffor | Bao Son Pham</p>
+        </footer>
+    </div>
+    <script src="scripts/contact.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVUi_skgoP9wbyXeA5M-xLvH38MZy1AXM&callback=myMap"></script>
+</body>
+</html>

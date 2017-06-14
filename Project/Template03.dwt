@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link href="https://fonts.googleapis.com/css?family=Ranga|Yellowtail" rel="stylesheet">
+<!-- #BeginEditable "doctitle" -->
+<title>Patricia Beagley</title>
+<!-- #EndEditable -->
+<link href="Temp02Style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.auto-style1 {
+	margin-right: 2px;
+}
+</style>
+
+
+
+
+</head>
+
+<body>
+<div id="container">
+	<div id="Header">
+	
+		
+		<img alt="Header" height="235" src="PatriciaHeader.jpg" width="455" style="float: left">
+		</div>
+		
+	<div id="HeaderContact" style="position: absolute; left: 540px; top: 15px; width: 350px; height: 240px; z-index: 5">
+		<img alt="Portrait" height="200" src="PatriciaPortrait.jpg" style="float: left" width="150">
+		
+		
+		<img alt="Logo" height="130" src="PatriciaBegleyLogo.jpg" width="131"><br>
+		Office: (905) 240-9200&nbsp;<br>
+		Fax: (905) 240-9207&nbsp;<br>
+		Email: patricia@remax.ca&nbsp;<br><br>
+		<a href="HomePage/HomePage.html">Home</a>&nbsp;
+		<a href="Listings/Listings.html">Listings</a>&nbsp;
+		<a href="Contact/Contact.html">Contact Me</a>&nbsp;
+		<a href="SiteMap/SiteMap.html">Site Map</a>
+	
+		</div>
+	<div id="Nav" style="position: absolute; left: 0px; top: 250px; width: 150px; height: 610px; z-index: 2">
+	<ul class="nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Properties</a></li>
+						<li><a href="#">SiteMap</a></li>
+						<li><a href="#">Contact me</a></li>
+	</ul>
+	<img class="silho" src="SilhouetteCropped.png" alt="silhoette" height="299" style="width: 149px">
+	</div>
+	<div id="Footer" style="position: absolute; left: 0px; top: 860px; width: 920px; height: 300px; z-index: 3">
+	<table class="auto-style1" style="width: 98%">
+	<tr>
+	<td>Properties</td>
+	<td>Navigation</td>
+	<td>Contact</td>
+	</tr>
+	<tr>
+	<td>
+	<table>
+	<tr>
+	<td>
+	<a class="imgfoot" href="Listing01.html">
+	<img src="e3631856_1.jpg" alt="Listong01" height="60" width="90"></a>
+	</td>
+	<td>
+	<a class="imgfoot" href="Listing02.html">
+	<img src="c3651298_1.jpg" alt="Listing02" height="60" width="90"></a>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<a class="imgfoot" href="Listing03.html">
+	<img src="e3649859_1.jpg" alt="Listing03" height="60" width="90"></a>
+	</td>
+	<td>
+	<a class="imgfoot" href="Listing04.html">
+	<img src="w3658494_1.jpg"  alt="Listing04" height="60" width="90"></a>
+	</td>
+	</tr>
+	
+	</table>
+	</td>
+	<td>
+	<ul class="footContact">
+	<li><a href="Homepage.html">Home</a></li>
+	<li><a href="Listings.html">Listings</a></li>
+	<li><a href="Contact.html">Contact Me</a></li>
+	<li><a href="SiteMap.html">Site Map</a></li>
+	</ul></td>
+	<td>
+	<ul class="footContact">
+	<li>1383 Wilson Rd N</li>
+	<li>Oshawa, ON L1K 2Z5</li>
+	<li>Office: (905) 240-9200</li>
+	<li>Fax: (905) 240-9207</li>
+	<li><a href="mailto://patricia@remax.ca">Email: patricia@remax.ca</a></li>
+	</ul>
+	</td>
+	</tr>
+	
+	</table>
+	</div>
+	
+		
+	<div id="Content" style="position: absolute; left: 400px; top: 0px; width: 765px; height: 610px; z-index: 4">
+	
+	<!-- #BeginEditable "body" -->
+	
+		
+	<!-- #EndEditable -->
+		</div>
+</div>
+</body>
+
+</html>

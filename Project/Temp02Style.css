@@ -1,0 +1,155 @@
+﻿.container{
+	position:absolute;
+	left: 50%;
+	margin-left: -460px;
+	
+	}
+
+#Header{
+	background-color: black;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	text-align: right;
+	vertical-align: sub;
+	position: absolute; 
+	left: 0px; 
+	top: 15px; 
+	width: 920px; 
+	height: 235px; 
+	z-index: 1
+}
+
+#HeaderContact{
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	color: white;
+	text-align: right;
+	margin-right:20px;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+    
+}
+
+#Footer{
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+    background-color:black;
+    
+}
+
+
+.imgfoot {
+	float:left;
+	background:#fff;
+	padding:2px;
+	border: 1px #cfcfcf solid;
+	margin:0 10px 10px 0;
+	 -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    margin-top: 0px;
+    margin-left:10px;
+    margin-right:0px;
+    margin-bottom:50px;
+	}	
+
+.imgfoot:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+	}
+
+
+#Nav{
+	background-color:white;
+}
+body{
+	background-image:url('Chennai_interior_Independent_house_interior.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	}
+	
+a{
+	color:white;
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+a:hover{
+	background-color:white;
+	color:black;
+}
+
+ul{
+	color:white;
+	
+}
+
+#Footer table{
+	table-layout: auto;
+	width: 100%;
+	color:white;
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size:x-large;
+	
+}
+
+#Footer ul{
+	list-style:none;
+}
+ul.nav {
+
+
+	list-style: none;
+	margin-top:0px;
+
+	}
+.nav li a {
+	background-image:url('greybuttonimage.jpg');
+	display:block;
+	float:left;
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif
+	font-size:15px; 
+	line-height:50px; 
+	color:white; 
+	font-weight:normal;
+	text-shadow: 2px 2px 2px black;
+	text-decoration:none;
+	padding:8px 5px 8px 5px; 
+	text-align:center;
+	font-style:bold;
+	text-transform:uppercase;
+	width:130px;
+	background-color:#D7D7D7;
+	margin:1px 2px 1px -40px;
+	border:5px #EAEAEA solid;
+	}
+	
+.nav li a:hover {
+	display:block;
+	float:left;
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size:13px; 
+	line-height:50px; 
+	color:#FFFFFF; 
+	font-weight:normal;
+	text-shadow: 2px 2px 2px black;
+	text-decoration:none;
+	padding:8px 5px px 5px; 
+	text-align:center;
+	font-style:normal;
+	text-transform:uppercase;
+	width:130px;
+	background-color:#BEBEBE;
+	border:5px #CCCCCC solid;
+	}
+
+.footContact{
+	margin-left:-30px;
+}
+
+.silho{
+	width: 149px;
+}
